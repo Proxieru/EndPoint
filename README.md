@@ -11,7 +11,7 @@ I wrote this in python 3.11.2 and i'm not sure what version is needed but
 I assume 3.0 or greater will work.
 
 # MOTD
-EndPoint will give you the MOTD of the server once a ip formatted to be readable. (I will eventully add a way to view raw MOTD)
+EndPoint will give you the MOTD of the server once a ip is submitted. It also formats it to be readable. (I will eventully add a way to view raw MOTD)
 it will also color it.
 
 # Version
