@@ -1,5 +1,6 @@
 # EndPoint
-A tool that allows for fetching information about a minecraft server with just a server ip address.
+A tool that allows for fetching information about a minecraft java server with just a server ip address. (This does NOT allow you
+to find servers and isn't a tool for server finding. You need the server's ip first) 
 
 # How to use?
 Using is pretty easy, you need python of course. It is recommended to do pip install -r requirements.txt
