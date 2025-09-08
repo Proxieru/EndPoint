@@ -20,6 +20,7 @@ Self explanitory, It will display the version(s) the server reported and the pro
 # Error reporting
 It will tell you the errors under the Input Server portion once they occur.
 
+# Ending stuff
 This program isn't complete and I still have things to add. It is open source and if you plan to include it in
 one of your projects please credit and list this repo. Same with if you fork it (Also please think about starring)
 
