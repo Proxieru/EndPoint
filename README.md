@@ -13,7 +13,7 @@ I assume 3.0 or greater will work.
 
 # MOTD
 EndPoint will give you the MOTD of the server once a ip is submitted. It also formats it to be readable. (I will eventully add a way to view raw MOTD)
-it will also color it.
+it will also color it. (Broke somehow, I will fix it eventully)
 
 # Version
 Self explanitory, It will display the version(s) the server reported and the protocol version.
@@ -21,9 +21,6 @@ Self explanitory, It will display the version(s) the server reported and the pro
 # Error reporting
 It will tell you the errors under the Input Server portion once they occur.
 
-# Ending stuff
-This program isn't complete and I still have things to add. It is open source and if you plan to include it in
-one of your projects please credit and list this repo. Same with if you fork it (Also please think about starring)
-
-Thank you for checking out this repo, this is one of my first projects and i'm doing it to have fun and learn
-more about GUI dev
+# Extra Info
+This program is under development and I am doing it for fun so it may randomly not recieve updates
+for awhile so don't expect them to be constant
