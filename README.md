@@ -1,26 +1,36 @@
 # EndPoint
-This is tool that allows for fetching information about a minecraft java server with just a server ip address. (This does NOT allow you
-to find servers and isn't a tool for server finding. You need the server's ip first) 
+This is tool that allows for fetching information about a minecraft java server with just a server ip address.
 
-# How to use?
-Using is pretty easy, you need python of course. It is recommended to do pip install -r requirements.txt
-to intsall the libs that this script needs. The installer will also just do it for you if you toggle
-a box. (Respects venvs). You NEED wxPython or even the installer won't work, it is for the gui.
+# Quick Disclaimer
+This tool does not assist in finding IP Adresses to minecraft servers and only allows viewing of data from servers
+which IPs you already know.
 
-# What python version?
-I wrote this in python 3.11.2 and i'm not sure what version is needed but 
-I assume 3.0 or greater will work.
+# Installation
+Option 1:
+Just go to the releases tab and find the latest release. Once there you can either grab
+the CLI version or the GUI version and run it with
 
-# MOTD
-EndPoint will give you the MOTD of the server once a ip is submitted. It also formats it to be readable. (I will eventully add a way to view raw MOTD)
-it will also color it. (Broke somehow, I will fix it eventully)
+```python3 EndPoint_VerX.py``` or ```python3 EndPoint_VerXCLI.py```
 
-# Version
-Self explanitory, It will display the version(s) the server reported and the protocol version.
+Option 2:
+If you do not wish to use the python script in the latest version you can run
+```
+   git clone https://github.com/Proxieru/EndPoint.git
+    cd EndPoint
+    pip install -r requirements.txt
+    python3 EndPoint_VerX.py
+```
+# Features
+- MOTD
+  EndPoint will give you the MOTD of the server once a ip is submitted. It also formats it to be readable. (I will eventully add a way to view raw   MOTD)
+  it will also color it. (Broke somehow, I will fix it eventully)
 
-# Error reporting
-It will tell you the errors under the Input Server portion once they occur.
+- Version
+  Self explanitory, It will display the version(s) the server reported and the protocol version.
 
-# Extra Info
-This program is under development and I am doing it for fun so it may randomly not recieve updates
-for awhile so don't expect them to be constant
+- Error reporting
+  It will tell you the errors under the Input Server portion once they occur.
+
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
