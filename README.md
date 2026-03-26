@@ -15,7 +15,7 @@ the CLI version or the GUI version and run it with
 Option 2:
 If you do not wish to use the python script in the latest version you can run
 ```
-   git clone https://github.com/Proxieru/EndPoint.git
+    git clone https://github.com/Proxieru/EndPoint.git
     cd EndPoint
     pip install -r requirements.txt
     python3 EndPoint_VerX.py
